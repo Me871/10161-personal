@@ -19,7 +19,8 @@ My personal repository for robotics research.
 * We should formally define each accessory/design/etc that we make in our documentation so that it's clear what we're talking about.
 
 ### Luxury Features
-* We could [use an LED strip](https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptLEDStick.java) to give operators feedback as to where an element is.
+* If the Pilot positions the robot such that it can see a certain part of the game, the Pilot can press a button that will switch into Auto-Task mode, and it will do the desired task automatically. Auto-Task mode locks out the Gunner's controls, but pressing any button on the Pilot's controller will abort Auto-Task and return to Normal Mode.
+* We could [use an LED strip](https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptLEDStick.java) to give operators feedback as to where an element is, or if Auto-Task is ready.
 * I'd like to get some [clip-on thumbstick extensions](https://www.thingiverse.com/thing:4615344) for the driver's controller so that I can have finer control.
 * The [competition manual (R904)](https://ftc-resources.firstinspires.org/file/ftc/game/manual) suggests using a USB hub to save the USB ports on the driver station.
 * We could make an operator's console (R905) that hangs on the cart and holds the controllers, then you can grab it and place it on the tables where we play: This would make it much easier to manage all of that stuff.
