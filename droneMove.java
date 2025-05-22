@@ -29,34 +29,10 @@ var fwd, left, cw;
       frontLeftDrive.setDirection(DcMotor.Direction.REVERSE);
       backLeftDrive.setDirection(DcMotor.Direction.REVERSE);
       while (opModeIsActive()) {
-        if (gamepad1.pressKey(105)) {
-          fwd = 1;
-        } else {
-          if (gamepad1.pressKey(107)) {
-            fwd = -1;
-          } else {
-            fwd = 0;
-          }
-        }
-        if (gamepad1.pressKey(106)) {
-          left = 1;
-        } else {
-          if (gamepad1.pressKey(108)) {
-            left = -1;
-          } else {
-            left = 0;
-          }
-        }
-        if (gamepad1.pressKey(114)) {
-          cw = 1;
-        } else {
-          if (gamepad1.pressKey(121)) {
-            cw = -1;
-          } else {
-            cw = 0;
-          }
-        }
-        if (gamepad1.pressKey(109)) {
+        fwd = gamepad1.right_stick_y
+        left = gamepad1.right_stick_x
+        cw = gamepad1.left_stick_x
+        if (gamepad1.right_trigger) {
           fwd = fwd * 0.5;
           left = left * 0.5;
           cw = cw * 0.5;
