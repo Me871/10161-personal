@@ -17,6 +17,9 @@ My personal repository for robotics research.
   * Gunner: Have the most used controls on Left Thumbstick. Others are on the D-Pad and Color Buttons, and those controls can be throttled with the Triggers. The Right Thumbstick walks the robot at 1/4 of the speed of the driver's.
 * We should use [GitHub Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) to write meeting notes, which will be compiled into an Engineer's Notebook at the end of the season. This also makes formatting much easier, since we just write the simpler notes every meeting, then make it look nice later on.
 * We should formally define each accessory/design/etc that we make in our documentation so that it's clear what we're talking about.
+* GitHub rules:
+    * All can edit their own branches
+    * Code Captain and Code Lieutenant are the only people that can approve merges
 
 ### Luxury Features
 * If the Pilot positions the robot such that it can see a certain part of the game, the Pilot can press a button that will switch into Auto-Task mode, and it will do the desired task automatically. Auto-Task mode locks out the Gunner's controls, but pressing any button on the Pilot's controller will abort Auto-Task and return to Normal Mode.
