@@ -6,6 +6,7 @@ My personal repository for robotics research.
 * We should protect against future damage by grounding all of our electronics [using this grounding cable](https://github.com/FIRST-Tech-Challenge/ftcdocs/blob/main/docs/source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst#step-4-ground-electronics-to-metal-frame-with-an-approved-cable).
 
 ### Improvements
+* Get new batteries; I don't think the old ones can supply the current we need for high speeds.
 * We should have a [robot log](https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Datalogging) (like a flight recorder) to make it easier to diagnose issues.
 * Form better in-match roles:
   * The Navigator has final command over everyone; nobody argues against them. They give general commands as the game goes on, only giving one command at a time (like grab, go to, hang on, etc)
